@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * This project is about c
+ * main -  This project is about c
  * This task is to print a text using 'puts' function
+ * Returns: 0 (the task accomplished)
  */
 int main(void)
 {
