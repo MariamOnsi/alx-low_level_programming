@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - this task is about priting a text withou using printf or puts functions.
  * Return: Always 1 (Success)
