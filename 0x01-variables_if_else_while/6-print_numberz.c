@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main task number 6 is about printing single digits.
- * Description: by using putchar function.
+ * main - this task is a bout print digits from 0 to 9.
  * Return: Always 0 (Success)
  */
 
