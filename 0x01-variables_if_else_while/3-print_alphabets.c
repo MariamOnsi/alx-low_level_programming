@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - this task is about lower ans upper cases.
  * Return: Always 0 (Success)
