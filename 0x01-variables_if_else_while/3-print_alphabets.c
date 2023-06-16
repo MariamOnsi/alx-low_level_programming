@@ -9,20 +9,10 @@ int main(void)
 {
 	char ls;
 
-	char US;
-
-	ls = 'a';
-	US = 'A';
-	while (ls >= 'z')
-{
-	putchar(ls);
-	ls++;
-}
-while (US >= 'Z')
-{
-	putchar(US);
-	US++;
-}
-putchar('\n');
+	for (ls = 'a'; ls <= 'z'; ls++)
+		putchar(ls);
+	for (ls = 'A'; ls <= 'Z'; ls++)
+		putchar(ls);
+	putchar('\n');
 return (0);
 }
