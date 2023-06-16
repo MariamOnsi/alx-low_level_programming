@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
- * main task number 6
+ * main task number 6 is about printing single digits.
+ * Description: by using putchar function.
  * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
 	int i;
 
