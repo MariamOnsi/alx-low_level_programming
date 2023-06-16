@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - this task is about if..else
+ * main - this task is about if_else
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,13 +14,13 @@ int main(void)
 	{
 		printf("%d is positive\n");
 	}
-	else if (n == 0)
+	if (n == 0)
 	{
 		printf("%d is zero\n");
 	}
 	else
 	{
-		printf("%d is negative\n");
+		printf("%d is negative");
 	}
 	return (0);
 }
