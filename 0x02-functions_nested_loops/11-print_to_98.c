@@ -7,36 +7,13 @@
  */
 void print_to_98(int n)
 {
-	if (n <= 98)
-	{
-	for (; n <= 98; n++)
-	{
-	if (n == 98)
-	{
-	printf("%d", n);
-	printf("\n");
-	break;
-	}
+	int digit;
+
+	if (n > 98)
+		for (digit = n; digit > 98; digit--)
+			printf("%d, ", digit);
 	else
-	{
-		printf("%d, ", n);
-	}
-	}
-	}
-	else
-	{
-		for (; n >= 98; n++)
-		{
-			if (n == 98)
-			{
-				printf("%d, ", n);
-				printf("\n");
-				break;
-			}
-			else
-			{
-				printf("%d, ", n);
-			}
-		}
-	}
+		for (digit = n; digit < 98; digit++)
+			printf("%d, ", digit);
+				printf("98\n");
 }
