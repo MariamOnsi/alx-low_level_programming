@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - task number1.
+ * print_alphabet - task number1.
  * Return: ALways void (Success)
  */
 void print_alphabet(void)
