@@ -18,7 +18,7 @@ void print_line(int n)
 
 		for (times = 0; times < n; times++)
 		{
-			_putchar('95');
+			_putchar('_');
 		}
 	}
 }
