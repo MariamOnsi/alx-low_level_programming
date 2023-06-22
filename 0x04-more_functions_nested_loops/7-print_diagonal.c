@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_diagonal - is a function to print some characters.
+ * print_diagonal - is a function to print the character n times.
  * @n: is the variable
  * Return: void.
  */
 
 void print_diagonal(int n)
 {
-	int line;
-	int dot;
+	int i;
+	int j;
 
 	if (n <= 0)
 	{
@@ -17,10 +17,12 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (line = 1; line <= n; line++)
+		for (i = 0; i < n; i++)
 		{
-			for (dot = 1; dot <= line; dot++)
-				_putchar(' ');
+			for (j = 0; j < i; j++)
+			{
+				_putchar(32);
+			}
 			_putchar(92);
 			_putchar('\n');
 		}
