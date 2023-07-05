@@ -4,6 +4,7 @@
 /**
  * is_prime_number - to check the prime number
  * @n: is the number
+ * @m: is to check
  * Return: int
  */
 
@@ -15,6 +16,7 @@ int is_prime_number(int n)
 
 /**
  * prime - is a function to the prime number
+ * @m: is the checker
  * @n: is the number
  * @m: is to check
  * Return: int
