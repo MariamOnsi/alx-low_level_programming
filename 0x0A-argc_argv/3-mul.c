@@ -11,9 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int x = 0, y = 0;
+	int x, y;
 
-	if (argc == 3)
+	if (argc > 1)
 	{
 		x = atoi(argv[1]);
 		y = atoi(argv[2]);
