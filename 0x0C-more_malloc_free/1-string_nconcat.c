@@ -4,11 +4,11 @@
 #include "main.h"
 
 /**
- * string_nconcat -  a function that concatenates two strings
+ * string_nconcat - a function that concatenates two strings
  * @s1: first string
  * @s2: second string
  * @n: variable
- * return: NULL if the function failed
+ * Return: NULL if the function failed
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
