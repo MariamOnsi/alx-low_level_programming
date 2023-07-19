@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int byte, j;
-	har *arr;
+	char *arr;
 
 	if (argc != 2)
 	{
